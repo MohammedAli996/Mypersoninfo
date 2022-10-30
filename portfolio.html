@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Personal portfolio Website</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!----CSS link----->
+        <link rel="stylesheet" href="./css/portfolio.css">
+        <!-- font awesome -->
+        <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+        <!----dewault color skin----->
+        <link rel="stylesheet" href="./css/skin/color-1.css">
+        <link rel="stylesheet" type="text/css" href="./css/responsive.css">
+        <!----JS link----->
+    </head>
+    <body>
+        <!-- preloader start -->
+        <div class="preloader">
+            <div class="box">
+                <div></div><div></div><div></div>
+            </div>
+        </div>
+        <!-- preloader end -->
+        <!-- header start -->
+        <header class="header">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="logo">
+                        <a href="portfolio.html">Mo</a>
+                    </div>
+                    <div class="hamburger-btn outer-shadow hover-in-shadow">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+        <!-- navigation menu start -->
+        <nav class="nav-menu">
+            <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+            <div class="nav-menu-inner">
+                <ul>
+                    <li><a href="#home" class="link-item inner-shadow active">Home</a></li>
+                    <li><a href="#aboutme" class="link-item outer-shadow hover-in-shadow">About</a></li>
+                    <li><a href="#service" class="link-item outer-shadow hover-in-shadow">Services</a></li>
+                    <li><a href="#testimonial" class="link-item outer-shadow hover-in-shadow">testimonial</a></li>
+                    <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contact</a></li>
+                </ul>
+            </div>
+            <!-- ncopyright text-->
+            <p class="copyright-text">&copy; 2022 Mohammed Ali</p>
+        </nav>
+        <div class="fade-out-effect">
+        </div>
+        <!-- navigation menu end -->
+        <!-- Home section start -->
+        <section class="home-section section active" id="home">
+            <!-- Home section start -->
+            <div class="container" id="Hierme">
+                <div class="row full-screen align-items-center">
+                    <div class="home-text">
+                        <p>Hello</p>
+                        <h2>I'm Mohammed</h2>
+                        <h1>Web Developer</h1>
+                        <a href="#aboutme" class="link-item btn-1 outer-shadow hover-in-shadow">More About Me</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box inner-shadow">
+                            <img src="My-pic.png" class="outer-shadow" alt="profile-pic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home section end -->
+        <!-- about section start -->
+        <section class="about-section section" id="aboutme">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2 data-headig="main info">About Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box inner-shadow">
+                            <img src="./My-pic.png" class="outer-shadow" alt="profile-pic">
+                        </div>
+                        <!-- social links start -->
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/MohammedAlii996" class="outer-shadow hover-in-shadow"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/mohammedali96/" class="outer-shadow hover-in-shadow"><i class="fab fa-instagram"></i></a>
+                            <a href="https://twitter.com/MohammedAlii96" class="outer-shadow hover-in-shadow"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/mohammed-ali-110bb7177/" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <!-- Social Link end-->
+                    </div>
+                    <div class="about-info">
+                        <p><span>HI! My name is Mohammed Ali.I am a Web Developer And web Disaner</span>
+                            I have a lot of experience with HTML and CSS, I also have experience with Javascript, PHP and Database,
+                            that's because I used to be on a software course and software course at codecademy.com
+                            I study ICT-Software developer (level 4) at the ROC of Amsterdam in southeast. I am in the 1st grade.</p>
+                            <p>After level 4, I want to continue my studies towards computer science at HBO.
+                            I currently work at the Media Markt in the Smartbare department.</p> </p>
+                        <a href="CV.pdf" class="btn-1 outer-shadow hover-in-shadow">Download CV</a>
+                        <a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow">Hier Me</a>
+                    </div>
+                </div>
+            </div>
+            <!-- about tabs start-->
+            <div class="row">
+                <div class="about-tabs">
+                    <span class="tab-item outer-shadow active" data-target=".skills">skills</span>
+                    <span class="tab-item" data-target=".education">education</span>
+                    <span class="tab-item" data-target=".courses">courses</span>
+                </div>
+            </div>
+            <!-- about tabs end-->
+            <!-- skills start-->
+            <div class="row">
+                <div class="skills tab-content active">
+                    <div class="row">
+                        <!-- skill item start -->
+                        <div class="skill-item">
+                            <p>HTML</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width:calc(75% - 14px)">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- skill item end -->
+                        <!-- skill item start -->
+                        <div class="skill-item">
+                            <p>Javascript</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar15" style="width:calc(15% - -14px)">
+                                    <span>15%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--skills item end-->
+                        <!-- skill item start -->
+                        <div class="skill-item">
+                            <p>CSS</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width:calc(75% - 14px)">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- skill item end -->
+                        <!-- skill item start -->
+                        <div class="skill-item">
+                            <p>PHP</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar15" style="width:calc(15% - -20px)">
+                                    <span>15%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- skill item end -->
+                        <!-- skill item start -->
+                        <div class="skill-item">
+                            <p>Database</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar50" style="width:calc(50% - -20px)">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- skill item end -->
+            <!-- education start -->
+                <div class="row">
+                    <div class="education tab-content">
+                        <div class="row">
+                            <div class="timeline">
+                                <div class="row">
+                                    <!-- timeline item start -->
+                                    <div class="timeline-item">
+                                        <div class="timeline-item-inner outer-shadow">
+                                            <i class="fa fa-graduation-cap icon"></i>
+                                            <span>2021-heden </span>
+                                            <h3>Software developer</h3>
+                                            <h4>ROC van Amsterdam, zuidoost</h4>
+                                        </div>
+                                    </div>
+                                        <!--timeline item end-->
+                                        <!-- timeline item start -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-item-inner outer-shadow">
+                                                <i class="fa fa-graduation-cap icon"></i>
+                                                <span>2020-2021</span>
+                                                <h3>ICT Support</h3>
+                                                <h4>ROC van Amsterdam, Hilversum</h4>
+                                            </div>
+                                        </div>
+                                        <!--timeline item end-->
+                                        <!-- timeline item start -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-item-inner outer-shadow">
+                                                <i class="fa fa-graduation-cap icon"></i>
+                                                <span>2018-2019</span>
+                                                <h3>Verkoop-Retail</h3>
+                                                <h4>Horizon collega, Hoorn</h4>
+                                            </div>
+                                        </div>
+                                        <!--timeline item end-->
+                                        <!-- timeline item start -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-item-inner outer-shadow">
+                                                <i class="fa fa-graduation-cap icon"></i>
+                                                <span>2011-2012</span>
+                                                <h3>ICT Informatica</h3>
+                                                <h4>Syrië, Aleppo</h4>                                               
+                                            </div>
+                                        </div>
+                                        <!--timeline item end-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- education end -->
+                    <!-- COURSES start -->
+                    <div class="row">
+                        <div class="courses tab-content">
+                            <div class="row">
+                                <div class="timeline">
+                                    <div class="row">
+                                        <!-- timeline item start -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-item-inner outer-shadow">
+                                                <i class="fa fa-certificate icon"></i>
+                                                <span>Sep. 2021 </span>
+                                                <h3>PHP Beginner</h3>
+                                                <h4>Bit Academy</h4>
+                                            </div>
+                                        </div>
+                                        <!--timeline item end-->
+                                        <!-- timeline item start -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-item-inner outer-shadow">
+                                                <i class="fa fa-certificate icon"></i>
+                                                <span>nov. 2021 </span>
+                                                <h3>JavaScript Intro</h3>
+                                                <h4>Bit Academy</h4>
+                                            </div>
+                                        </div>
+                                        <!--timeline item end-->
+                                        <!-- timeline item start -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-item-inner outer-shadow">
+                                                <i class="fa fa-certificate icon"></i>
+                                                <span>nov. 2021</span>
+                                                <h3>HTML/CSS Beginner</h3>
+                                                <h4>Bit Academy</h4>
+                                            </div>
+                                        </div>
+                                        <!--timeline item end-->
+                                        <!-- timeline item start -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-item-inner outer-shadow">
+                                                <i class="fa fa-certificate icon"></i>
+                                                <span>nov. 2021</span>
+                                                <h3>HTML/CSS Advanced</h3>
+                                                <h4>Bit Academy</h4>
+                                            </div>
+                                        </div>
+                                        <!--timeline item end-->
+                                        <!-- timeline item start -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-item-inner outer-shadow">
+                                                <i class="fa fa-certificate icon"></i>
+                                                <span>nov. 2021</span>
+                                                <h3>Databases Beginner</h3>
+                                                <h4>Bit Academy</h4>                                              
+                                            </div>
+                                        </div>
+                                        <!--timeline item end-->
+                                        <!-- timeline item start -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-item-inner outer-shadow">
+                                                <i class="fa fa-certificate icon"></i>
+                                                <span>dec. 2021</span>
+                                                <h3>PHP Novice</h3>
+                                                <h4>Bit Academy</h4>                                              
+                                            </div>
+                                        </div>
+                                        <!--timeline item end-->
+                                        <!-- timeline item start -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-item-inner outer-shadow">
+                                                <i class="fa fa-certificate icon"></i>
+                                                <span>dec. 2021</span>
+                                                <h3>HTML/CSS</h3>
+                                                <h4>Codeacademy</h4>                                              
+                                            </div>
+                                        </div>
+                                        <!--timeline item end-->
+                                        <!-- timeline item start -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-item-inner outer-shadow">
+                                                <i class="fa fa-certificate icon"></i>
+                                                <span>2011 - 2012</span>
+                                                <h3>ICT Informatic</h3>
+                                                <h4>Syrië, Aleppo</h4>                                              
+                                            </div>
+                                        </div>
+                                        <!--timeline item end-->
+                                        <!-- timeline item start -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-item-inner outer-shadow">
+                                                <i class="fa fa-certificate icon"></i>
+                                                <span>2010-2010</span>
+                                                <h3>Hardware</h3>
+                                                <h4>Syrië, Aleppo</h4>                                              
+                                            </div>
+                                        </div>
+                                        <!--timeline item end-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- COURSES end -->
+                </div>
+                <!-- Skill  end-->
+            </div>
+        </section>
+        <!-- about section end -->
+        <!-- services section start-->
+            <section class="service-section section" id="service">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2 data-headig="Services">What i do</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- service item start-->
+                        <div class="service-item">
+                            <div class="service-item-inner outer-shadow">
+                                <div class="icon inner-shadow">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h3>Responsive design</h3>
+                                <p>streeft naar een optimale webervaring voor een breed scala aan apparaten
+                                    (van desktop computerschermen tot mobiele telefoons).Het ontwerp van een responsive website schaalt mee met de afmetingen van een scherm,
+                                </p>
+                            </div>
+                        </div>
+                        <!-- service item end-->
+                        <!-- service item start-->
+                        <div class="service-item">
+                            <div class="service-item-inner outer-shadow">
+                                <div class="icon inner-shadow">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h3>Web design</h3>
+                                <p> creating the design and layout of a website or web pages. It and can mean working on a brand new
+                                    website or updating an already existing site.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- service item end-->
+                        <!-- service item start-->
+                        <div class="service-item">
+                            <div class="service-item-inner outer-shadow">
+                                <div class="icon inner-shadow">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h3>Graphic design</h3>
+                                <p>create everything from posters and billboards to packaging, logos and marketing materials.</p>
+                            </div>
+                        </div>
+                        <!-- service item end-->
+                        <!-- service item start-->
+                        <div class="service-item">
+                            <div class="service-item-inner outer-shadow">
+                                <div class="icon inner-shadow">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h3>clean code</h3>
+                                <p>i'm writing code so that other can understand what this code is exampel i Use descriptive names.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- service item end-->
+                        <!-- service item start-->
+                        <div class="service-item">
+                            <div class="service-item-inner outer-shadow">
+                                <div class="icon inner-shadow">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h3>Responsive design</h3>
+                                <p>streeft naar een optimale webervaring voor een breed scala aan apparaten
+                                    (van desktop computerschermen tot mobiele telefoons).Het ontwerp van een responsive website schaalt mee met de afmetingen van een scherm,
+                                </p>
+                            </div>
+                        </div>
+                        <!-- service item end-->
+                        <!-- service item start-->
+                        <div class="service-item">
+                            <div class="service-item-inner outer-shadow">
+                                <div class="icon inner-shadow">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h3>Responsive design</h3>
+                                <p>streeft naar een optimale webervaring voor een breed scala aan apparaten
+                                    (van desktop computerschermen tot mobiele telefoons).Het ontwerp van een responsive website schaalt mee met de afmetingen van een scherm,
+                                </p>
+                            </div>
+                        </div>
+                        <!-- service item end-->
+                    </div>
+                </div>
+            </section>
+        <!-- services section end-->
+        <!-- testimonial-section end-->
+        <section class="testimonial-section section" id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2 data-headig="testimonial">Clinet speak</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="testi-box">
+                        <div class="testi-slider outer-shadow">
+                            <div class="testi-slider-container">
+                                <!--testie item start-->
+                                <div class="testi-item active">
+                                    <i class="fas fa-quote-left left"></i>
+                                    <i class="fas fa-quote-right right"></i>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magn
+                                        aliqua
+                                    </p>
+                                    <img src="./testimonial/1.png" alt="testimonial">
+                                    <span>Sami Ali</span>
+                                </div>
+                                <!--testie item end-->
+                                <!--testie item start-->
+                                <div class="testi-item">
+                                    <i class="fas fa-quote-left left"></i>
+                                    <i class="fas fa-quote-right right"></i>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magn
+                                        aliqua
+                                    </p>
+                                    <img src="./testimonial/1.png" alt="testimonial">
+                                    <span>Ali Alden</span>
+                                </div>
+                                <!--testie item end-->
+                                <!--testie item start-->
+                                <div class="testi-item">
+                                    <i class="fas fa-quote-left left"></i>
+                                    <i class="fas fa-quote-right right"></i>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magn
+                                        aliqua
+                                    </p>
+                                    <img src="./testimonial/1.png" alt="testimonial">
+                                    <span>Mohammed Nayal</span>
+                                </div>
+                                <!--testie item end-->
+                            </div>
+                        </div>
+                        <div class="testi-slider-nav">
+                            <span class="prev outer-shadow hover-in-shadow"><i class="fas fa-angle-left "></i></span>
+                            <span class="next outer-shadow hover-in-shadow"><i class="fas fa-angle-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial-section  end-->
+        <!-- contact section start -->
+        <section class="contact-section section" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2 data-headig="contact">Get In Touch</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--contact item start-->
+                    <div class="contact-item">
+                        <div class="contact-item-inner outer-shadow">
+                            <i class="fas fa-phone"></i>
+                            <span>Phone</span>
+                            <p>+31634058133</p>
+                        </div>
+                    </div>
+                    <!--contact item end-->
+                    <!--contact item start-->
+                    <div class="contact-item">
+                        <div class="contact-item-inner outer-shadow">
+                            <i class="fas fa-envelope"></i>
+                            <span>E-mail</span>
+                            <p>Mohammed.online@outlook.sa</p>
+                        </div>
+                    </div>
+                    <!--contact item end-->
+                    <!--contact item start-->
+                    <div class="contact-item">
+                        <div class="contact-item-inner outer-shadow">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Address</span>
+                            <p>Enkhuizen, Netherland</p>
+                        </div>
+                    </div>
+                </div>
+                <!--contact item end-->
+                <div class="row">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="w-50">
+                                    <div class="input-group outer-shadow hover-in-shadow">
+                                        <input type="text" placeholder="Name" class="input-control">
+                                    </div>
+                                    <div class="input-group outer-shadow hover-in-shadow">
+                                        <input type="text" placeholder="Email" class="input-control">
+                                    </div>
+                                    <div class="input-group outer-shadow hover-in-shadow">
+                                        <input type="text" placeholder="Subject" class="input-control">
+                                    </div>
+                                </div>
+                                <div class="w-50">
+                                    <div class="input-group outer-shadow hover-in-shadow">
+                                        <textarea class="input-control" placeholder="Messsage"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- style switcher start -->
+        <!-- style switchern end -->
+        <!--Main js-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
